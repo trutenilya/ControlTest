@@ -1,6 +1,6 @@
 ﻿string [] array = {"hello","2","world", ":-)"};
 
-
+Console.WriteLine($"Исходный массив: [{String.Join(", ", array)}]");
 
 int countOne = 0;
 for (int i = 0; i < array.Length; i++)
@@ -23,4 +23,4 @@ for (int i = 0; i < array.Length; i++)
    }
 }
 
-Console.WriteLine($"[{String.Join(", ", newArray)}]");
+Console.WriteLine($"Полученный массив: [{String.Join(", ", newArray)}]");
